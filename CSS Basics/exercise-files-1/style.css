@@ -1,0 +1,34 @@
+body {
+    background-image: url('dynamic-wang-o-UiGQEVbsw-unsplash.jpg');
+    background-size: cover;
+}
+
+
+h2 {
+    color: red;
+}
+
+/* p {
+    color: pink;
+} */
+
+li {
+    display: inline-block;
+}
+
+p {
+    color: #BDBFEF;
+    font-size: 12px;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 0 black;
+    /* first value is horizontal/x offset */
+    /* second value is vertical/y offset */
+    /* third value is how much blur */
+    /* fourth value is the color */
+    /* you can even have multiple shadows separated by a comma! */
+    line-height: 1.4;
+    font-variant: small-caps;
+}
