@@ -1,0 +1,9 @@
+.para,
+.text {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 25px;
+}

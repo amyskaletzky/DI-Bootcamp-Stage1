@@ -1,12 +1,12 @@
 .first {
     background-color: black;
     color: white;
-    border: inset;
+    border: 2px outset;
 }
 
 .second {
     background-color: #FFFF3E;
-    border: outset white;
+    border: 2px outset;
 }
 
 .first,
