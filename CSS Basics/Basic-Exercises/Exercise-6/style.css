@@ -1,9 +1,32 @@
+body {
+    font-family: Helvetica;
+}
+
 .para,
-.text {
+div .text {
     color: red;
-    font-weight: bold;
+}
+
+.text {
+    color: green;
 }
 
 .button {
-    font-size: 25px;
+    font-size: 15px;
+    border: 1.5px outset;
+}
+
+.confirm {
+    font-weight: bold;
+}
+
+.child,
+.small-para {
+    font-size: smaller;
+    font-weight: normal;
+}
+
+#confirm-button {
+    background-color: green;
+    color: white;
 }
