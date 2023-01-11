@@ -2,13 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* height: 100%; */
 }
 
 .navli {
     list-style-type: none;
 }
-
 
 
 .navbar {
@@ -19,6 +17,7 @@
 a {
     text-decoration: none;
     color: #002b46;
+    margin: 10px;
 }
 
 a:hover {
@@ -32,7 +31,8 @@ video {
 
 #wiki img,
 #imdb img {
-    width: 30px;
+    width: 45px;
+    margin: 20px
 }
 
 
@@ -106,19 +106,17 @@ p {
 
 .container5 {
     background-color: #012233;
-    color: #87a75e;
+    color: #d5e7e7;
     text-align: center;
 }
 
+.container5 h3 {
+    margin-top: 20px;
+}
 
 
 /* Mobile Version */
 @media only screen and (max-width: 480px) {
-
-    /* 
-    . {
-        height: 100vh;
-    } */
 
     .navbar {
         background-color: #002305;
@@ -126,7 +124,6 @@ p {
     }
 
     a {
-        /* color: #002b46; */
         color: #7ca0b7;
     }
 
@@ -154,24 +151,12 @@ p {
         display: none;
     }
 
-    /* .container2,
-    .container3,
-    .container4 {
-        flex: 3;
-    } */
 
     .container5 {
         flex: 0;
     }
 
 }
-
-
-
-
-/* Tablet Version */
-@media only screen and (min-width: 481px) {}
-
 
 
 /* Desktop Version */
