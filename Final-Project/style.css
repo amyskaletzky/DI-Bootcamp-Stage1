@@ -30,7 +30,8 @@ video {
 }
 
 #wiki img,
-#imdb img {
+#imdb img,
+.top {
     width: 45px;
     margin: 20px
 }
